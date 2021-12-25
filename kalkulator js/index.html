@@ -14,29 +14,31 @@
       <h2>Java Script</h2>
     </div>
     <div class="main">
-      <input class="inputAngka" type="number" />
+      <input class="inputAngka" type="number" placeholder="0" />
       <div class="tombolKalkulator">
-        <span class="tombol tombolOperator" onclick="opr('ce')">CE</span>
-        <span class="tombol tombolOperator" onclick="opr('c')">C</span>
+        <span class="tombol tombolOperator" onclick="clr('ce')">CE</span>
+        <span class="tombol tombolOperator" onclick="clr('c')">C</span>
         <span class="tombol tombolOperator" onclick="del()">Del</span>
-        <span class="tombol tombolOperator" onclick="opr('bagi')">/</span>
+        <span class="tombol tombolOperator" onclick="opr('/')">/</span>
         <span class="tombol tombolAngka" onclick="btn('7')">7</span>
         <span class="tombol tombolAngka" onclick="btn('8')">8</span>
         <span class="tombol tombolAngka" onclick="btn('6')">6</span>
-        <span class="tombol tombolOperator" onclick="opr('kali')">X</span>
+        <span class="tombol tombolOperator" onclick="opr('*')">X</span>
         <span class="tombol tombolAngka" onclick="btn('4')">4</span>
         <span class="tombol tombolAngka" onclick="btn('5')">5</span>
         <span class="tombol tombolAngka" onclick="btn('6')">6</span>
-        <span class="tombol tombolOperator" onclick="opr('kurang')">-</span>
+        <span class="tombol tombolOperator" onclick="opr('-')">-</span>
         <span class="tombol tombolAngka" onclick="btn('1')">1</span>
         <span class="tombol tombolAngka" onclick="btn('2')">2</span>
         <span class="tombol tombolAngka" onclick="btn('3')">3</span>
-        <span class="tombol tombolOperator" onclick="opr('tambah')">+</span>
+        <span class="tombol tombolOperator" onclick="opr('+')">+</span>
         <span class="tombol tombolAngka" onclick="btn('pn')">+/-</span>
         <span class="tombol tombolAngka" onclick="btn('0')">0</span>
-        <span class="tombol tombolAngka" onclick="btn('.')">.</span>
-        <span class="tombol tombolOperator" onclick="opr('samaDengan')">=</span>
+        <span class="tombol tombolAngka" onclick="koma()">.</span>
+        <span class="tombol tombolOperator" onclick="hasilHitung()">=</span>
       </div>
     </div>
+    <!-- My Script JS -->
+    <script src="script.js"></script>
   </body>
 </html>
