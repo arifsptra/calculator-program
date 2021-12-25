@@ -51,6 +51,17 @@ h2 {
   float: left;
   margin: 2px;
   height: 50px;
-  background-color: #fff;
   border-radius: 10px;
+}
+.tombolOperator {
+  background-color: rgb(245, 132, 57);
+}
+.tombolOperator:hover {
+  background-color: rgb(223, 125, 60);
+}
+.tombolAngka {
+  background-color: #fff;
+}
+.tombolAngka:hover {
+  background-color: #f9f9f9;
 }
